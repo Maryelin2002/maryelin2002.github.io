@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+    background: url('clouds.jpg');
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.social{
+    padding-left: 0pt;
+}
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+  
+  /* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    margin-right: 150px;
+}
+  
+  /* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+  
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.whatsapp{
+    background: #00cc00;
+    color: white;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+#global{
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 30px;
+	padding: 25px;
+	background: #fff6ff;
+	box-shadow: 0px 0px 2px gray;
+}
+
+#content{
+    width: 100%;
+}
+
+
+#logo{
+	font-family: Verdana, Arial;
+	font-size: 28px;
+	letter-spacing: 4px;
+	line-height: 75px;
+	color: #4d004d;
+	text-align: center;
+	width: 385px;
+	height: 80px;
+	margin-bottom: 20px;
+	float: left;
+	text-transform: uppercase;
+}
+
+#menu{
+	font-family: Helvetica, Arial;
+	background: #010132;
+	width: 100%;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#menu ul{
+	line-height: 46px;
+	list-style: none;
+}
+
+#menu ul li{
+	height: 46px;
+	display: inline-block;
+	transition: all 300ms;
+}
+
+#menu a{
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#posts{
+	width: 30%;
+	float: left;
+	font-family: Helvetica, Arial;
+}
+
+.post{
+	display: block;
+	color: black;
+	margin-top:5px;
+}
+
+
+h2{
+	font-family: Helvetica, Arial;
+	font-size: 30px;
+	color:#333;
+}
+
+
+
+#sidebar{
+	font-family: Helvetica, Arial;
+	width: 35%;
+	float: right;
+}
+
+#sidebar img{
+	width: 100%;
+}
+
+#sidebar p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+footer {
+	font-family: Helvetica, Arial;
+	color:white;
+	height: 47px;
+	background: rgba(51, 51, 51, 0.70);
+	margin:0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+}
+.box{
+	border: none;
+	color: black;
+	font-size: 16px;
+	margin: 4px 2px;
+	padding: 16px 32px;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+.label{
+	border: 2px solid #4d004d;
+	color: black;
+	font-size: 16px;
+	margin: 4px 2px;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button{
+	border: 2px solid #4CAF50;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.subir{
+	color: #00ffff;
+    text-decoration: none;
+	display: block;
+	float:right;
+}
